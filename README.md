@@ -124,12 +124,7 @@ model_path = r"path/to/best.pt"
 url = "http://your-camera-ip:8080/video"  # Your camera URL
 ```
 
-### For Video Testing
 
-Edit `testing_code.py`:
-```python
-video_path = "your_video.mp4"
-```
 
 ## Output Files
 
@@ -181,9 +176,4 @@ video_path = "your_video.mp4"
 
 This project uses YOLOv8 (by Ultralytics) licensed under AGPL-3.0 and EasyOCR (open-source).
 
-## Support
 
-For issues or questions:
-1. Check the troubleshooting section
-2. Review YOLOv8 documentation: https://docs.ultralytics.com/
-3. Check EasyOCR documentation: https://github.com/JaidedAI/EasyOCR
